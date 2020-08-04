@@ -1,3 +1,14 @@
+---
+title: "Campus Recruitment Statistics"
+date: 2020-08-04
+tags: [data wrangling, statistic, messy data, data science]
+header:
+  image:
+excerpt: "data wrangling, statistic, messy data, data science"
+mathjax: "True"
+---
+
+
 ```python
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
@@ -307,7 +318,7 @@ female = []
 for i in range(num):
     if data['gender'][i] == 'M':
         male = data.loc[(data['gender'] == 'M')]
-    
+
     elif data['gender'][i] == 'F':
         female = data.loc[(data['gender'] == 'F')]
 
@@ -827,7 +838,7 @@ print(round(male_mean - female_mean, 2))
 
     267291.67 298910.0
     31618.33
-    
+
 
 the difference in starting salary between men and woman is 31618.33
 
@@ -840,7 +851,7 @@ sns.pairplot(data)
       keep = (tmp_a >= first_edge)
     C:\Users\44738\AppData\Local\Continuum\anaconda3\lib\site-packages\numpy\lib\histograms.py:825: RuntimeWarning: invalid value encountered in less_equal
       keep &= (tmp_a <= last_edge)
-    
+
 
 
 
@@ -986,7 +997,7 @@ print("95 percent confidence interval : ",st.t.interval(0.95,len(sample_data)-1,
 ```
 
     95 percent confidence interval :  (65.42589693112755, 68.10230306887247)
-    
+
 
 
 ```python
