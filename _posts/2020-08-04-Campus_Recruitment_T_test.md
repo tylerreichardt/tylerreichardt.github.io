@@ -3,9 +3,9 @@ title: "Campus Recruitment Statistics"
 date: 2020-08-04
 tags: [data wrangling, statistic, messy data, data science]
 header:
-  image:
+  image: ""
 excerpt: "data wrangling, statistic, messy data, data science"
-mathjax: "True"
+mathjax: "true"
 ---
 
 
