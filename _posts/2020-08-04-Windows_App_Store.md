@@ -5,7 +5,7 @@ tags: [data wrangling, statistic, messy data, data visualization]
 header:
   image:
 excerpt: "data wrangling, statistic, messy data, data visualization"
-mathjax: "True"
+mathjax: "true"
 ---
 
 
